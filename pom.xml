@@ -20,7 +20,7 @@
       <artifactId>com.sap.cloud.adk.build.archive</artifactId>  
       <version>1.20.0</version>  
       <!-- Ugly workaround because this jar in mvn central is missing its parent pom! -->
-      <scope>system</scope >
+      <scope>system</scope>
 	  <systemPath>${project.basedir}/src/main/resources/com.sap.cloud.adk.build.archive-1.20.0.jar</systemPath>  
     </dependency>
     <dependency>
@@ -63,6 +63,7 @@
       <plugin>
         <groupId>org.apache.felix</groupId>
         <artifactId>maven-bundle-plugin</artifactId>
+        <version>3.5.0</version>
         <extensions>true</extensions>
 
         <configuration>
@@ -108,7 +109,7 @@
       <plugin>
         <groupId>com.sap.cloud.adk</groupId>
         <artifactId>com.sap.cloud.adk.build.archive</artifactId>
-        <version>1.20.0</version>    
+        <version>1.20.0</version>
       </plugin>
     </plugins>
     <pluginManagement>
