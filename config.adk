@@ -1,0 +1,7 @@
+#Properties file
+#Fri Jan 19 13:28:10 CET 2018
+Adapter-Name=TravisTestAdapter
+Enable-Maven=true
+Adapter-Vendor=rojo
+Adapter-ID=TravisTestAdapter
+Adapter-Version=1.0.0
